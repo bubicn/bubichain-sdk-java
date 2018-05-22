@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+cn.bubi.access.starter.BCAutoConfiguration,\
+cn.bubi.access.starter.BCAutoConfigurationSpi
