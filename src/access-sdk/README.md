@@ -1,4 +1,4 @@
-﻿#  bubichain-v3 Java SDK
+#  bubichain-v3 Java SDK
 
 [TOC]
 
