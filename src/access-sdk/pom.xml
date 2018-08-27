@@ -9,19 +9,6 @@
     <version>2.0.0.RELEASE</version>
 
     <packaging>pom</packaging>
-    
-    <repositories>
-		<repository>
-		    <id>nexus-bubi</id>
-		    <url>http://maven.bubidev.cn/content/groups/public/</url>
-		    <releases>
-		        <enabled>true</enabled>
-		    </releases>
-		    <snapshots>
-		        <enabled>true</enabled>
-		    </snapshots>
-		</repository>
-	</repositories>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
