@@ -1,6 +1,6 @@
 #  bubichain-v3 Java SDK
 
-[TOC]
+[toc]
 
 ##  概述
 
