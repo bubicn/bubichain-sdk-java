@@ -576,13 +576,6 @@ public class Demo{
 
 	/**
 	 * 批量设置账户metadata
-	 * 
-	 * @param parameterList
-	 *            被操作人员列表
-	 *            注：Parameter参数（address,pubKey,priKey,metadataKey,metadataValue）
-	 * @param initiator
-	 *            交易发起人
-	 * @return
 	 */
 	@Test
 	public void updateMetadataList() {
