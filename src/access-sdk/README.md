@@ -140,6 +140,7 @@ String eventUtis = "ws://192.168.6.46:7053"; // tcp协议地址
 String ips = "192.168.6.46:19333"; // http协议地址
 SDKConfig config = new SDKConfig();
 SDKProperties sdkProperties = new SDKProperties();
+sdkProperties.setEventUtis(eventUtis);
 sdkProperties.setIps(ips);
 config.configSdk(sdkProperties);
 // 完成配置获得spi
@@ -632,7 +633,7 @@ public void setWeight() {
 
     try {
         SetSignerWeightOperation setSignerWeightOperation = OperationFactory.newSetSignerWeightOperation(200);//设置权重值
-        setSignerWeightTransaction.buildAddOperation(setSignerWeightOperation); 
+        setSignerWeightTransaction.buildAddOperation(setSignerWeightOperation);
         setSignerWeightTransaction.commit(publicKey, privateKey);  // 签名并提交交易
 
     } catch (SdkException e) {
