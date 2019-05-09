@@ -127,6 +127,14 @@ bubichain-v3 Java SDK需要1.8以上的JDK
     <version>${access-sdk.version}</version>
 </dependency>
 ```
+当前最近版本配置为：
+```xml
+<dependency>
+    <groupId>cn.bubi.access.sdk</groupId>
+    <artifactId>sdk-core</artifactId>
+    <version>2.0.0.RELEASE</version>
+</dependency>
+```
 
 ##  配置
 
